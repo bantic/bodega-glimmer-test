@@ -1,1 +1,6 @@
-<div><h1>Welcome to Glimmer!</h1></div>
+<div>
+  <button onclick={{action make2}}>number: 2</button>
+  <button onclick={{action make3}}>number: 3</button>
+
+  <my-second-component @number={{myNumber}}></my-second-component>
+</div>
